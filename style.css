@@ -1,0 +1,110 @@
+body {
+  font-family: "Lora", serif;
+}
+
+/* navbar */
+.navbar {
+  z-index: 3;
+}
+
+.nav-color {
+  background-color: #071952;
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #ffb000;
+}
+
+.nav-link {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #fffadd;
+}
+
+#hero {
+  background: url("assets/img/hero-bg.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.overlay {
+  width: 100%;
+  position: relative;
+  background: rgba(12, 12, 12, 0.619);
+  min-height: 100vh;
+}
+
+.hero-tagline {
+  padding: 40vh 20% 20% 20%;
+}
+
+.hero-tagline span {
+  font-family: "Karla", sans-serif;
+  color: #ffb000;
+}
+
+.hero-tagline p {
+  color: #fffadd;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn-hero {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffb000;
+  background-color: #fffadd;
+  font-family: "Karla", sans-serif;
+  padding: 20px 40px;
+  border-radius: 40px;
+  transition: all ease-in-out 0.2s;
+}
+
+.btn-hero:hover {
+  color: #000;
+}
+
+.title h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#about {
+  min-height: 100vh;
+}
+
+.about-content h4 {
+  font-weight: 700;
+}
+
+.about-content p {
+  font-size: 1rem;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 40px;
+}
+
+#product {
+  min-height: 100vh;
+}
+
+.product-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .card-title {
+  font-weight: 700;
+}
